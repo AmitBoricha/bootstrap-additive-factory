@@ -1,1 +1,47 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+
+
+.hero{
+    height: 100vh;
+    
+}
+
+#hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Scale the video to cover the entire hero section */
+    z-index: -1;
+    opacity: 1; /* Adjust opacity as needed */
+}
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+} */
+
+.px-4 {
+    /* Your existing styles */
+    z-index: 1; /* Make sure this value is higher than the video's z-index */
+}
+
+.hero-content{
+    color: #ffff;
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack the content vertically */
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+    height: 80%; 
+}
+
+.white-text {
+    color: white !important;
+}
