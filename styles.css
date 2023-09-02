@@ -1,8 +1,12 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 
+body {
+    background-color: #131415;
+    color: white; /* Set text color to white for better readability on dark background */
+}
 
 
-.hero{
+.hero , .services{
     height: 100vh;
     
 }
@@ -48,7 +52,7 @@ header {
     flex-direction: column; /* Stack the content vertically */
     justify-content: center; /* Vertically center the content */
     align-items: center; /* Horizontally center the content */
-    height: 80%; 
+    height: 75%; 
 }
 
 .white-text {
