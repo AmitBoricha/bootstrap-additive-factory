@@ -7,6 +7,10 @@
     
 }
 
+.nav-pills .nav-item .nav-link {
+    color: white; /* Set the text color to white */
+}
+
 #hero-video {
     position: absolute;
     top: 0;
