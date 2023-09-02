@@ -28,8 +28,8 @@ body {
     color: black; /* Your desired text color on hover/focus */
 }
 
-.hero , .services , .about-us{
-    height: 100vh;
+.hero , .services , .about-us , .contact-us{
+    height: 105vh;
     
 }
 
@@ -74,7 +74,7 @@ header {
     flex-direction: column; /* Stack the content vertically */
     justify-content: center; /* Vertically center the content */
     align-items: center; /* Horizontally center the content */
-    height: 75%; 
+    height: 80%; 
 }
 
 .white-text {
@@ -84,3 +84,32 @@ header {
 .services{
     background-color: #ffff;
 }
+
+.card:hover {
+    background-color: var(--color1);
+}
+
+.card:hover h5, .card:hover p {
+    color: white;
+}
+
+.custom-text-color {
+    color: black;
+}
+
+.ftco-section {
+    padding: 7em 0;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.bg-custom{
+    background-color: var(--color1);
+}
+
+.contact-us{
+    background-color: #fff;
+}
+
